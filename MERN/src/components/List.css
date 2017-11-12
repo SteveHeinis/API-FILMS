@@ -1,0 +1,13 @@
+ul {
+	padding-left: 0px;
+}
+
+ul ul {
+	margin-top: 30px;
+}
+
+ul img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+}
