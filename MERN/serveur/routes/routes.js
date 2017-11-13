@@ -9,7 +9,7 @@ const Movie = require('../model/movie');
 // Where and how the files/images should be saved.
 const storage = multer.diskStorage({
   destination: (request, file, cb) => {
-    cb(null, path.resolve('../../basicfront/public', 'uploads'));
+    cb(null, path.resolve('../../MERN/public', 'uploads'));
   },
   filename: (request, file, cb) => {
     cb(null, file.originalname);
